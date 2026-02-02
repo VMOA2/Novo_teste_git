@@ -1,3 +1,4 @@
+-- Nova tentativa de migração
 -- Migration: 20250131_create_test_table_cron_bucket
 -- Descrição: Cria tabela de teste com tipos complexos, RLS, cron job e storage bucket
 
