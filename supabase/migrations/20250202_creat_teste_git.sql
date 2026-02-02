@@ -1,5 +1,8 @@
--- Migration: 20250131_create_test_table_cron_bucket
+-- Migration: 20250202_creat_teste_git
 -- Descrição: Cria tabela de teste com tipos complexos, RLS, cron job e storage bucket
+
+-- Habilitar extensão pg_cron
+CREATE EXTENSION IF NOT EXISTS pg_cron WITH SCHEMA cron;
 
 -- ============================================================
 -- 1. ENUM TYPES
